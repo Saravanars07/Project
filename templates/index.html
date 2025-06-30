@@ -301,7 +301,7 @@
 
   <!-- Images-->
   
-  <section id="images"class="container my-5 fade-in justify-content-center">
+  <section id="images"class="container my-5 fade-in">
     <h2 class="text-center mb-4">Demo Screenshot</h2>
     <div class="row justify-content-center">
       <div class="col-lg-10">
@@ -320,70 +320,74 @@
     <h2 class="text-center mb-4">Live Demo</h2>
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <form id="predictForm">
-          <div class="row">
-            <div class="col-md-3 mb-2">
-              <label for="tau1" class="form-label">tau1</label>
-               <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau1" name="tau1" placeholder="tau1" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="tau2" class="form-label">tau2</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau2" name="tau2" placeholder="tau2" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="tau3" class="form-label">tau3</label>
-               <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau3" name="tau3" placeholder="tau3" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="tau4" class="form-label">tau4</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau4" name="tau4" placeholder="tau4" required>
-            </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <form id="predictForm">
+              <div class="row">
+                <div class="col-md-3 mb-2">
+                  <label for="tau1" class="form-label">tau1</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau1" name="tau1" placeholder="tau1" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="tau2" class="form-label">tau2</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau2" name="tau2" placeholder="tau2" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="tau3" class="form-label">tau3</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau3" name="tau3" placeholder="tau3" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="tau4" class="form-label">tau4</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="tau4" name="tau4" placeholder="tau4" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-2">
+                  <label for="p1" class="form-label">p1</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p1" name="p1" placeholder="p1" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="p2" class="form-label">p2</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p2" name="p2" placeholder="p2" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="p3" class="form-label">p3</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p3" name="p3" placeholder="p3" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="p4" class="form-label">p4</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p4" name="p4" placeholder="p4" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-2">
+                  <label for="g1" class="form-label">g1</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g1" name="g1" placeholder="g1" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="g2" class="form-label">g2</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g2" name="g2" placeholder="g2" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="g3" class="form-label">g3</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g3" name="g3" placeholder="g3" required>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="g4" class="form-label">g4</label>
+                  <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g4" name="g4" placeholder="g4" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mt-2">
+                  <button type="submit" class="btn btn-success w-100">Predict Stability</button>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <button type="reset" class="btn btn-secondary w-100">Cancel</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="row">
-            <div class="col-md-3 mb-2">
-              <label for="p1" class="form-label">p1</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p1" name="p1" placeholder="p1" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="p2" class="form-label">p2</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p2" name="p2" placeholder="p2" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="p3" class="form-label">p3</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p3" name="p3" placeholder="p3" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="p4" class="form-label">p4</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="p4" name="p4" placeholder="p4" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 mb-2">
-              <label for="g1" class="form-label">g1</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g1" name="g1" placeholder="g1" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="g2" class="form-label">g2</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g2" name="g2" placeholder="g2" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="g3" class="form-label">g3</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g3" name="g3" placeholder="g3" required>
-            </div>
-            <div class="col-md-3 mb-2">
-              <label for="g4" class="form-label">g4</label>
-              <input type="text" pattern="^-?\d*((\.|,)\d+)?$" class="form-control" id="g4" name="g4" placeholder="g4" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 mt-2">
-              <button type="submit" class="btn btn-success w-100">Predict Stability</button>
-            </div>
-            <div class="col-md-6 mt-2">
-              <button type="reset" class="btn btn-secondary w-100">Cancel</button>
-            </div>
-          </div>
-        </form>
+        </div>
         <div id="loadingSpinner" class="text-center d-none">
           <div class="spinner-border text-warning" role="status"></div>
           <div>Predicting...</div>
