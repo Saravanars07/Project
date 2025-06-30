@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grid Stability ML Project |Final Year Project</title>
-  <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='image/Home.ico')}}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='Image/Home.ico')}}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -50,8 +50,7 @@
         <div class="card project-card">
           <div class="card-body">
             <h2 class="card-title mb-3">Grid Stability Prediction Project</h2>
-            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Electric_grid_simple.svg/600px-Electric_grid_simple.svg.png" class="img-fluid rounded mb-3" alt="Smart Grid"> -->
-            <img src="{{url_for('static',filename='Image/OIP1.webp')}}" class="img-fluid rounded mb-3" alt="Smart Grid">
+            <img src="static/Image/OIP1.webp" class="img-fluid rounded mb-3" alt="Smart Grid">
             <p>
               This project leverages a Random Forest machine learning model to predict the stability of smart energy grids. Users can input real-time grid parameters and instantly receive a prediction—helping operators make proactive decisions and integrate renewables with confidence.
             </p>
@@ -261,7 +260,7 @@
     </div>
   </section>
 
-  <!--Challages &amp; -->
+  <!--Challages & Limitations -->
   <section id="challenges" class="container my-5 fade-in">
     <h2 class="text-center mb-4">Challenges &amp; Limitations</h2>
     <div class="row justify-content-center">
@@ -307,9 +306,9 @@
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <h2>Unstable</h2>
-        <img src="{{ url_for('static',filename='Image/output.jpeg')}}" alt="Dashboard Screenshot" class="img-fluid rounded mb-4">
+        <img src="static/Image/output.jpeg" alt="Dashboard Screenshot" class="img-fluid rounded mb-4">
         <h2>Stable</h2>
-        <img src="{{ url_for('static',filename='Image/outputstb.jpeg')}}" alt="Dashboard Screenshot" class="img-fluid rounded mb-4">
+        <img src="static/Image/outputstb.jpeg" alt="Dashboard Screenshot" class="img-fluid rounded mb-4">
         <p>The interactive dashboard allows users to input grid parameters and view stability predictions in real time.</p>
       </div>
     </div>
