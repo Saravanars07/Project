@@ -36,25 +36,25 @@ Modern power grids face unprecedented complexity due to distributed generation, 
 - **Languages:** Python
 - **Frameworks:** scikit-learn, TensorFlow/Keras, pandas, NumPy
 - **Visualization:** matplotlib, seaborn, Plotly
-- **Deployment:** Streamlit (for live demo)
+- **Deployment:** Render [for live demo](https://project-r0ym.onrender.com/)
 
 ---
 
 ## 🔬 Methodology
 
 1. **Data Collection:** Gathered real and simulated grid operation data
-2. **Preprocessing:** Cleaned and normalized datasets, engineered relevant features
-3. **Model Selection:** Evaluated Random Forest, Neural Networks, XGBoost, SVM, and more
-4. **Training & Validation:** Used cross-validation and multiple metrics (accuracy, F1-score, AUC)
+2. **Preprocessing:** Cleaned and normalized datasets, engineered relevant features,Removed redundant columns to improve model efficiency
+3. **Model Selection:** Evaluated Random Forest, XGBoost, SVM, and more
+4. **Training & Validation:** Used cross-validation and multiple metrics (accuracy, F1-score, AUC),Trained models with hyperparameter tuning for optimal performance
 5. **Deployment:** Integrated best-performing models into a real-time dashboard
 
 ---
 
 ## 📊 Dataset
 
-- **Sources:** Public smart grid datasets and simulated data
-- **Features:** Voltage, frequency, load, generation, event logs
-- **Size:** 100,000+ records
+- **Sources:** Public smart grid datasets, synthetic data from simulations
+- **Features:** 12+ operational variables (e.g., time constants, power,frequency, generation)
+- **Size:** 10,000+ samples, balanced between stable and unstable state
 
 ---
 
