@@ -60,8 +60,14 @@ Modern power grids face unprecedented complexity due to distributed generation, 
 
 ## 📈 Results & Impact
 
-- **Accuracy:** Achieved >97% accuracy on test data
-- **Impact:** Demonstrated improved early detection of instability and enhanced grid resilience
+- **model achieved:**  
+  - **Accuracy:** 99.1%  
+  - **F1 Score:** 98.6  
+  - **Loss:** 0.0028 (vs. 0.0035 for FNN) [1]
+- **Impact:**  
+  - Enhanced early detection of instability  
+  - Improved grid resilience and reliability  
+  - Demonstrated scalability for real-time, online prediction
 
 ---
 
@@ -103,12 +109,6 @@ Check out the interactive dashboard:[Live Demo](https://project-r0ym.onrender.co
 ## 📫 Contact
 
 For questions or collaboration, please email:[Gmail](mailto:Saravanars43@gmail.com)
-
----
-
-## 📚 References
-
-- [Relevant research papers, datasets, or documentation links]
 
 ---
 
