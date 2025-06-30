@@ -95,7 +95,7 @@ Check out the interactive dashboard:[Live Demo](https://project-r0ym.onrender.co
 - S Saravana
 - V Hema Kumar
 - V Tharun
-- Divya Vasanth
+- Divya Vasantha
   
 
 ---
