@@ -34,7 +34,7 @@ Modern power grids face unprecedented complexity due to distributed generation, 
 ## 🛠️ Technical Overview
 
 - **Languages:** Python
-- **Frameworks:** scikit-learn, TensorFlow/Keras, pandas, NumPy
+- **Frameworks:** scikit-learn,pandas, NumPy
 - **Visualization:** matplotlib, seaborn, Plotly
 - **Deployment:** Render [for live demo](https://project-r0ym.onrender.com/)
 
@@ -101,7 +101,7 @@ Check out the interactive dashboard:[Live Demo](https://project-r0ym.onrender.co
 - S Saravana
 - V Hema Kumar
 - V Tharun
-- Divya Vasantha
+- Divya
   
 
 ---
