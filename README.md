@@ -63,7 +63,7 @@ Modern power grids face unprecedented complexity due to distributed generation, 
 - **model achieved:**  
   - **Accuracy:** 99.1%  
   - **F1 Score:** 98.6  
-  - **Loss:** 0.0028 (vs. 0.0035 for FNN) [1]
+  - **Loss:** 0.0028
 - **Impact:**  
   - Enhanced early detection of instability  
   - Improved grid resilience and reliability  
